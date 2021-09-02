@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root to: "LPs#index"
+  get 'lps/index'
+  root to: "lps#index"
 end
